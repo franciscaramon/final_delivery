@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TP2_WEB</title>
+
+  <!--link a bootstrap css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!--link de bootstrap iconografía-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <!--vinculación de icomoon-->
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="css/estilos.css">
+
+  <!--link a lightbox-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
+
+
+<body>
+  <!--barra de navegacion-->
+  <nav class="navbar navbar-expand-md fixed-top bg-secondary" data-bs-theme="dark">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="#">
+        <img src="imagenes/logojujuy.png" alt="Bootstrap" width="90"></a>
+
+      <!--menu de hamburguesa-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#desplegable">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--boton salinas-->
+      <div class="collapse navbar-collapse" id="desplegable">
+        <ul class="navbar-nav d-flex w-100">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.turismo.jujuy.gob.ar/item/salinas-grandes/">Salinas Grandes</a>
+          </li>
+             <!--boton cerro-->
+      <div class="collapse navbar-collapse" id="desplegable">
+        <ul class="navbar-nav d-flex w-100">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.getyourguide.es/salta-l1153/hornocal-tour-del-cerro-de-14-colores-y-quebrada-humahuaca-t308043/">Cerro 14 Colores</a>
+          </li>
+             <!--boton portfolio-->
+      <div class="collapse navbar-collapse" id="desplegable">
+        <ul class="navbar-nav d-flex w-100">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.turismo.jujuy.gob.ar/item/purmamarca/">Purmamarca</a>
+          </li>
+
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--cierre de la barra de navegación-->
+
+
+
+
+  <!--carousel-->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagenes/jujuy.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/jujuy2.jpg.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/jujuy3.jpeg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </header>
+
+
+  <main class="container-md">
+    <!--titulo-->
+    <div class="titulo">
+      <h1 class="titulo fw-bold">  <br> 3 Razones porque visitar Jujuy </h1>
+      <h3 class="h3 fst-italic"> Un lugar mágico <br> Jujuy es una provincia ubicada al norte de Argentina con paisajes fascinantes que no te podes perder</h3>
+    </div>
+
+    <!--grilla-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2> Salinas Grandes </h2>
+          <p> En Salinas Grandes, los visitantes pueden caminar sobre la vasta superficie salina, disfrutar de impresionantes oportunidades fotográficas y aprender sobre el proceso de extracción de sal a través de visitas guiadas.  <br></p>
+
+          <a href="imagenes/Salinas-Grandes.jpg" target="_blank"
+            class="btn btn-primary-info" tabindex="-1" role="button" aria-disabled="true">Explorá</a>
+        </div>
+
+        <div class="col-md-4">
+          <h2> Cerro 14 Colores </h2>
+          <p>En el Cerro de los 14 Colores es ideal hacer senderismo hasta los miradores estratégicos para observar y fotografiar la impresionante paleta de colores de la montaña. </p><br>
+
+          <a href="imagenes/cerro.jpg" target="_blank"
+            class="btn btn-primary-info" tabindex="-1" role="button" aria-disabled="true">Explorá</a>
+
+        </div>
+        <div class="col-md-4">
+          <h2>Purmamarca</h2>
+          En Purmamarca, se puede recorrer el mercado artesanal local, realizar el Paseo de los Colorados para obtener vistas espectaculares del Cerro de los Siete Colores y visitar la histórica iglesia de Santa Rosa de Lima.<br></p>
+
+          <a href="imagenes/purmamarca.jpg" target="_blank"
+            class="btn btn-primary-info" tabindex="-1" role="button" aria-disabled="true">Explorá</a>
+
+        </div>
+      </div>
+    </div>
+
+
+
+      <!--Suscribite-->
+
+      <div class="container-md2">
+        <h2 class="Suscribite"> Seguinos  </h2>
+        <p> Para seguir conociendo los increíbles destinos que tiene la Argentina por ofrecer.<br> 
+       </p>
+
+      </div>
+
+
+      <!--Lightbox-->
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Galería de Imágenes</title>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+          <style>
+              .gallery {
+                  display: flex;
+                  flex-wrap: wrap;
+                  justify-content: space-between;
+              }
+              .image-container {
+                  flex: 1 1 30%; /* Ajuste para la versión web */
+                  margin: 10px;
+              }
+              .image-container img {
+                  width: 100%;
+                  height: auto;
+                  border-radius: 15px;
+                  object-fit: cover;
+              }
+      
+              /* Media query para pantallas móviles */
+              @media (max-width: 768px) {
+                  .gallery {
+                      flex-direction: column;
+                      align-items: center;
+                  }
+                  .image-container {
+                      flex: 1 1 100%; /* Ajuste para la versión móvil */
+                      margin: 10px 0;
+                  }
+              }
+          </style>
+      </head>
+      <body>
+          <div class="mx-auto p-3 gallery">
+              <a href="imagenes/cerro.jpg" data-lightbox="galeria" class="d-block image-container">
+                  <img src="imagenes/cerro.jpg" alt="imagen5">
+              </a>
+              <a href="imagenes/purmamarca.jpg" data-lightbox="galeria" class="d-block image-container">
+                  <img src="imagenes/purmamarca.jpg" alt="purmamarca">
+              </a>
+              <a href="imagenes/Salinas-Grandes.jpg" data-lightbox="galeria" class="d-block image-container">
+                  <img src="imagenes/Salinas-Grandes.jpg" alt="Salinas-Grandes">
+              </a>
+          </div>
+      
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+      </body>
+      </html>
+      
+
+
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"></script>
+
+
+  <footer></footer>
+
+
+  </main>
+
+
+  <!--link de js-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="js/codigo.js"></script>
+
+</body>
+
+</html>

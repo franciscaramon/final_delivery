@@ -1,0 +1,74 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+  --bs-body-bg: #378ac6;
+}
+
+.btn-outline-success {
+  --bs-btn-border-color: #378ac6;
+  --bs-btn-hover-bg: $colordos ;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--color-fondo);
+  font-size: 20px;
+}
+
+h1, h2 {
+  font-family: "Montserrat", monospace;
+}
+
+.carousel {
+  width: 100%;
+  padding-bottom: 3.5rem;
+}
+
+.titulo, .row, h3 {
+  padding: 4rem;
+}
+
+h1 {
+  font-size: 60px;
+  padding-bottom: 0.1;
+}
+
+h3 {
+  font-size: 20px;
+  padding-top: 0.1;
+}
+
+.row, .container-md2 {
+  text-align: center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.camara {
+  width: 60%;
+}
+
+.btn-primary-sabe {
+  background-color:  #378ac6;
+}
+.btn-primary-sabe:hover {
+  background-color: black;
+}
+
+.imagen5, .imagen6 {
+  padding: 2rem;
+}
+
+footer {
+  height: 25vh;
+  margin: 0;
+  background-color: #378ac6;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: auto;
+  }
+}/*# sourceMappingURL=estilos.css.map */
